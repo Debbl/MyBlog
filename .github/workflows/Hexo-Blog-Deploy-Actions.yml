@@ -25,6 +25,7 @@ jobs:
         env:
           DAOVOICE_APP_ID: ${{ secrets.DAOVOICE_APP_ID }}
           CNZZ_ANALYTICS_ID: ${{ secrets.CNZZ_ANALYTICS_ID }}
+          BAIDU_ANALYTICS: ${{ secrets.BAIDU_ANALYTICS }}
         run: envsubst < _config.butterfly_temp.yml > _config.butterfly.yml
       - name: Install Dependencies
         run: npm install
