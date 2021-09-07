@@ -7,8 +7,17 @@ export DAOVOICE_APP_ID=***
 ```
 已使用如下环境变量:flags:
 
-​	`DAOVOICE_APP_ID`
-​	`CNZZ_ANALYTICS_ID`
+```
+DAOVOICE_APP_ID
+```
+
+```
+CNZZ_ANALYTICS_ID
+```
+
+```
+BAIDU_ANALYTICS
+```
 
 #### 2. 运行如下命令
 

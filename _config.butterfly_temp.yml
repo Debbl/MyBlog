@@ -417,7 +417,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: $BAIDU_ANALYTICS
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
