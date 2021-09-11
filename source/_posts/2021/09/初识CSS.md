@@ -1,5 +1,5 @@
 ---
-title: "初始 CSS"
+title: "初识 CSS"
 top_img: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/CSS/css-logo.png'
 cover: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/CSS/css-logo.png'
 tags:
