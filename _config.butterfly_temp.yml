@@ -23,7 +23,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false 代码样式
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false 代码样式
 highlight_copy: true # copy button  复制按钮
 highlight_lang: true # show the code language 显示代码语言
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button 代码自动换行
