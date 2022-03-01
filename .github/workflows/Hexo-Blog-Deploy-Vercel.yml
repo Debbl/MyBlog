@@ -1,4 +1,4 @@
-name: Hexo-Blog-Deploy-Actions
+name: Hexo-Blog-Deploy-Vercel
 
 on:
   push:
