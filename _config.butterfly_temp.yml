@@ -80,18 +80,18 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/favicon.png
+favicon: ./images/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/avator_img.png
+  img: ./images/avatar_img.png
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://gitee.com/Debbl/hexo-blog-imges/raw/master/images/background_img.png
+index_img: ./images/background_img.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:

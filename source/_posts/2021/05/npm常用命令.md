@@ -10,15 +10,15 @@ description: npm常用的命令
 abbrlink: 854b
 date: 2021-05-30 15:31:04
 updated: 2021-05-30 15:31:04
-top_img: https://gitee.com/Debbl/hexo-blog-imges/raw/master/Npm/Npm-logo.png
-cover: https://gitee.com/Debbl/hexo-blog-imges/raw/master/Npm/Npm-logo.png
+top_img: ./npm常用的命令/images/Npm-logo.png
+cover: ./npm常用的命令/images/Npm-logo.png
 ---
 
 ### 查看当前 npm 配置
 ```bash
 npm config list
 ```
-
+![](./npm常用的命令/images/Npm-logo.png)
 ### 创建模块
 
 > 会生成一个package.json文件有当前项目的信息
