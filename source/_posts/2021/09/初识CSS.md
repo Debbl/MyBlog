@@ -1,7 +1,7 @@
 ---
-title: "初识 CSS"
-top_img: './初识 CSS/images/css-logo.png'
-cover: './初识 CSS/images/css-logo.png'
+title: "初识CSS"
+top_img: './初识CSS/images/css-logo.png'
+cover: './初识CSS/images/css-logo.png'
 tags:
   - Web
   - CSS
