@@ -1,7 +1,7 @@
 ---
 title: 配置zsh
-top_img: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/zsh/zsh.png'
-cover: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/zsh/zsh.png'
+top_img: './配置zsh/images/zsh.png'
+cover: './配置zsh/images/zsh.png'
 tags:
   - zsh
   - shell

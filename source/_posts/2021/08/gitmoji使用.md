@@ -1,9 +1,9 @@
 ---
 title: gitmoji使用
 top_img: >-
-  https://gitee.com/Debbl/hexo-blog-imges/raw/master/Git/gitmoji%E4%BD%BF%E7%94%A8/gitmoji.gif
+  ./gitmoji使用/images/gitmoji.gif
 cover: >-
-  https://gitee.com/Debbl/hexo-blog-imges/raw/master/Git/gitmoji%E4%BD%BF%E7%94%A8/gitmoji.gif
+  ./gitmoji使用/images/gitmoji.gif
 tags:
   - Git
   - Gitmoji
@@ -19,7 +19,7 @@ updated: 2021-08-03 20:00:18
 
 在我们执行`git commit` 是使用 emoji 为本次提交打一个标签, 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。
 
-![Gitemoji](https://gitee.com/Debbl/hexo-blog-imges/raw/master/Git/gitmoji%E4%BD%BF%E7%94%A8/image-20210803201124334.png)
+![Gitemoji](./gitmoji使用/images/image-20210803201124334.png)
 
 ###  👌Commit 提交格式
 

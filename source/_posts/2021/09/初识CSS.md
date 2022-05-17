@@ -1,7 +1,7 @@
 ---
 title: "初识 CSS"
-top_img: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/CSS/css-logo.png'
-cover: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/CSS/css-logo.png'
+top_img: './初识 CSS/images/css-logo.png'
+cover: './初识 CSS/images/css-logo.png'
 tags:
   - Web
   - CSS

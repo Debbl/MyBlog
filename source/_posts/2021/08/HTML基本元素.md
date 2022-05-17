@@ -1,9 +1,9 @@
 ---
 title: HTML基本元素
 top_img: >-
-  https://gitee.com/Debbl/hexo-blog-imges/raw/master/HTML/HTML5_logo_and_wordmark.svg.png
+  ./HTML基本元素/images/HTML5_logo_and_wordmark.svg.png
 cover: >-
-  https://gitee.com/Debbl/hexo-blog-imges/raw/master/HTML/HTML5_logo_and_wordmark.svg.png
+  ./HTML基本元素/images/HTML5_logo_and_wordmark.svg.png
 tags:
   - Web
   - HTML

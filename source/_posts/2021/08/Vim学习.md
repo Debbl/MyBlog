@@ -1,7 +1,7 @@
 ---
 title: Vim学习
-top_img: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/Vim/1200px-Vimlogo.svg.png'
-cover: 'https://gitee.com/Debbl/hexo-blog-imges/raw/master/Vim/1200px-Vimlogo.svg.png'
+top_img: './Vim学习/images/1200px-Vimlogo.svg.png'
+cover: './Vim学习/images/1200px-Vimlogo.svg.png'
 tags:
   - Vim
 categories:
