@@ -1632,10 +1632,12 @@ destroy@~1.0.4:
   resolved "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz"
   integrity sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
 
-disqusjs@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmmirror.com/disqusjs/-/disqusjs-1.3.0.tgz#6ae8040e3a999e04ef977095573e0bf3c82b1542"
-  integrity sha512-m9eu1FjydynqxcbdH6C74be6JB961wseQWhs3JrkZg7frvpsV7zyC43yR7f2oK6ooxhjuvk6ek9Z84BTkn0/ww==
+disqusjs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-3.0.0.tgz#76554768394152011a31143476179f8a506224c4"
+  integrity sha512-SwxQLe5r+hd6CvZCYvgFIKTVhJ0Ok004pIVHfFtGpB/bt8N0PIGIAlTkzUZrpZbe5qGUSY25mR7G9671FNHInA==
+  dependencies:
+    zustand "^4.0.0-rc.1"
 
 doctypes@^1.1.0:
   version "1.1.0"
@@ -2228,10 +2230,10 @@ hexo-abbrlink@^2.2.1:
     hexo-front-matter "^1.0.0"
     hexo-fs "^3.1.0"
 
-hexo-butterfly-extjs@^1.1.9:
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.1.9.tgz#52931787cd2ee4d77b31107c43b7975857d19d5e"
-  integrity sha512-c8rwXtV4ARWHgzRItDCsiTd4TJ9eAA5noxVyfxs9UXI5UeRJss/61cfpx0F9tIvEDjz+l09ifT0eD30B/K3f3A==
+hexo-butterfly-extjs@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-butterfly-extjs/-/hexo-butterfly-extjs-1.2.1.tgz#007d97e4a867b3699559c513fa4fcffa343d088a"
+  integrity sha512-9UMvJwMlEpGGZvUrJ8rNgwBCaI/XInXaNofbsSzJeuOvaotvHcz3XDMzCu87AQHZTl49Q1bdaZErbhhcdRCVqg==
   dependencies:
     "@fancyapps/ui" "^4.0.27"
     "@fortawesome/fontawesome-free" "^6.1.1"
@@ -2240,12 +2242,11 @@ hexo-butterfly-extjs@^1.1.9:
     aplayer "^1.10.1"
     blueimp-md5 "^2.19.0"
     butterfly-extsrc "^1.1.2"
-    disqusjs "^1.3.0"
+    disqusjs "^3.0.0"
     flickr-justified-gallery "^2.0.0"
     gitalk "^1.7.2"
-    install "^0.13.0"
     instant.page "^5.1.0"
-    instantsearch.js "^4.40.5"
+    instantsearch.js "^4.40.6"
     js-yaml "^4.1.0"
     katex "^0.15.6"
     mathjax "^3.2.1"
@@ -2259,7 +2260,7 @@ hexo-butterfly-extjs@^1.1.9:
     twikoo "^1.5.11"
     typed.js "^2.0.12"
     valine "^1.4.18"
-    vanilla-lazyload "^17.8.1"
+    vanilla-lazyload "^17.8.2"
 
 hexo-cli@^4.3.0:
   version "4.3.0"
@@ -2583,20 +2584,15 @@ insane@^2.6.2:
     assignment "2.0.0"
     he "0.5.0"
 
-install@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.npmmirror.com/install/-/install-0.13.0.tgz#6af6e9da9dd0987de2ab420f78e60d9c17260776"
-  integrity sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA==
-
 instant.page@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npmmirror.com/instant.page/-/instant.page-5.1.0.tgz#ee0b5c341eda6c16d63def214bb6126701d7154d"
   integrity sha512-7tz0vkrbj6rN08+C56UDTs1Z71ATPNjMv2eCFaYnIIn3jlkEF6HZCaUtsigjaN2hVaYiuu06vu1usDMnu+OEFg==
 
-instantsearch.js@^4.40.5:
-  version "4.40.5"
-  resolved "https://registry.npmmirror.com/instantsearch.js/-/instantsearch.js-4.40.5.tgz#17b3c2ed493bee80101b3eb9a48187b487d275c3"
-  integrity sha512-6YL4WGJ4mGz+b1mbAd/k+g3foz0W0HhZA7wSz0CeuNoJHnCcCcJAoAFdwLoWGRBKjxV7FoXFou0NRkLWXEmBrg==
+instantsearch.js@^4.40.6:
+  version "4.41.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.41.0.tgz#c879d7b892e3d9159a17a803e793e695aeb5431f"
+  integrity sha512-g9l+Cty0xxMT06L36gc6x6Nz6HsEbrqbNQOXAZDORb2g9ADjMQwR1YtOVqN28pTuwXnhWJ4UfEKlLfHTgTVKmg==
   dependencies:
     "@algolia/events" "^4.0.1"
     "@types/google.maps" "^3.45.3"
@@ -4230,6 +4226,11 @@ unpipe@~1.0.0:
   resolved "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
+use-sync-external-store@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz#3343c3fe7f7e404db70f8c687adf5c1652d34e82"
+  integrity sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==
+
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -4262,10 +4263,10 @@ valine@^1.4.18:
     storejs "^1.0.25"
     xss "^1.0.6"
 
-vanilla-lazyload@^17.8.1:
-  version "17.8.1"
-  resolved "https://registry.npmmirror.com/vanilla-lazyload/-/vanilla-lazyload-17.8.1.tgz#9ef94537b342bc7c7a6bb950f42ba643d8e719bd"
-  integrity sha512-kEpvCrHIPCKP1wKwlj3kJLcjpJNfIustY2jZUJOs9rWR8iajxt+UDUhDT6KBWPoPkEpwWtdqjqOqJpRaVi+nXQ==
+vanilla-lazyload@^17.8.2:
+  version "17.8.2"
+  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-17.8.2.tgz#06083660122d01bc38cc94ad5486579bd0290e27"
+  integrity sha512-sz/dFM5tXi5LbDhx9l31bAdXXtYvKCZ2cCva4SgsKxFIHf0r/4j1HsnaDn60ga2DhbxLRtHh65J8JmHZHW0F8w==
 
 vary@~1.1.2:
   version "1.1.2"
@@ -4455,3 +4456,10 @@ yargs@^3.10.0:
     string-width "^1.0.1"
     window-size "^0.1.4"
     y18n "^3.2.0"
+
+zustand@^4.0.0-rc.1:
+  version "4.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.0.0-rc.1.tgz#ec30a3afc03728adec7e1bd7bcc3592176372201"
+  integrity sha512-qgcs7zLqBdHu0PuT3GW4WCIY5SgXdsv30GQMu9Qpp1BA2aS+sNS8l4x0hWuyEhjXkN+701aGWawhKDv6oWJAcw==
+  dependencies:
+    use-sync-external-store "1.1.0"
